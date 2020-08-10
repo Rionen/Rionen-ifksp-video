@@ -4,9 +4,9 @@ function calcAmount() {
     let amountNumber = parseInt(amountInput.value);
 
     amuontNumber = isNaN(amountNumber) ? 0 : amountNumber;
-    showSumPrice();
+    showSumPrice(price, amountNumber);
 }
-function showSumPrice(price=1000, amountNumber=1)
+function showSumPrice(price, amountNumber)
 {
     
     let showAmount = document.querySelector("span.show-amount");
