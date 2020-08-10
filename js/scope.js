@@ -33,6 +33,7 @@ console.log(name);
 
 
 
+
 //A benti name megválltozttja a külső értékét(kinéz)
 /*let name="Sanyi";
 {
@@ -51,3 +52,11 @@ console.log(name);
 
 console.log(globalName);
 */
+const globalName="Joe";
+{
+    
+    const globalName="Piri";
+    console.log(globalName);
+}
+
+console.log(globalName);
